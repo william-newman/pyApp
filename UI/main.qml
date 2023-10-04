@@ -6,9 +6,7 @@ ApplicationWindow {
     height: 600
     x: screen.desktopAvailableWidth - width - 12
     y: screen.desktopAvailableHeight - height - 48
-
     title: "Py Clock"
-    flags: Qt.FramelessWindowHint | Qt.Window
     property string currTime: "00:00:00"
     property QtObject backend
     Rectangle {
@@ -16,7 +14,7 @@ ApplicationWindow {
         Image {
             sourceSize.width: parent.width
             sourceSize.height: parent.height
-            source: "./images/playas.jpg"
+            source: "file:///C:/Users/billy/Pictures/BKG/on_rotation/strange_mountains.jpg"
             fillMode: Image.PreserveAspectFit
         }
         Text {

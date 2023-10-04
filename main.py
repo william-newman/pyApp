@@ -39,3 +39,6 @@ back_end = Backend()
 engine.rootObjects()[0].setProperty("backend", back_end)
 back_end.bootUp()
 sys.exit(app.exec())
+
+
+# C:\Users\billy\Pictures\BKG\on_rotation\strange_mountains.jpg
